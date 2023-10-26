@@ -3,7 +3,7 @@
 export default function Footer(){
     return(
         <div className="row footer">
-            Group5-Đại học FPT HÀ Nội
+            Bùi Tuấn Hùng - dom service
         </div>
     );
 }

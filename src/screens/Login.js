@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { SHA256 } from "crypto-js";
 
 
 
@@ -36,7 +35,7 @@ const Login = () => {
           const foundUser = data.find(
             (user) =>
               user.username === username &&
-              user.password === SHA256(password).toString() && // Mã hoá mật khẩu nhập vào
+              user.password === password && // Mã hoá mật khẩu nhập vào
               user.status === true
           );
           if (foundUser) {

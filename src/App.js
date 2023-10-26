@@ -24,7 +24,7 @@ import EditNoti from './screens/EditNoti';
 import Payment from './screens/Payment';
 import ManagerPayment from './screens/ManagerPayment';
 import PaymentHistory from './screens/PaymentHistory';
-
+import AboutPage from './screens/AboutPage';
 
 
 function App() {
@@ -57,9 +57,7 @@ function App() {
      <Route path='/payment' element={<Payment/>}/>
      <Route path='/paymenthistory' element={<PaymentHistory/>}/>
      <Route path='/managerpayment' element={<ManagerPayment/>}/>
-     
-
-
+     <Route path='/about' element={<AboutPage/>}/>
      </Routes>   
     </BrowserRouter>
     </div>

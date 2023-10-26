@@ -37,9 +37,7 @@ function HeaderApp() {
       .then(data => {
         setUsers(data);
       })
-      .catch(err => {
-        
-      })
+      .catch(err => {})
     }
   }, []);
 

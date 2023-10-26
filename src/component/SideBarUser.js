@@ -17,26 +17,13 @@ function SideBarUser() {
             setStyle("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion")
         }
     };
-    const changeStyle1 = () => {
-        if (style == "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion") {
-            setStyle("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled1");
-        }
-        else {
-            setStyle("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion")
-        }
-    };
 
     return (
-        
             <>
-
-                {/*  <!-- Page Wrapper --> */}
                 <div id="wrapper" >
 
-                    {/*  <!-- Sidebar --> */}
                     <ul className={style} id="accordionSidebar" style={{width:'95%'}}>
 
-                        {/*  <!-- Sidebar - Brand --> */}
                         <a className="sidebar-brand d-flex align-items-center justify-content-center" href="#">
                             <div className="sidebar-brand-icon rotate-n-15">
                                 <i className="fas fa-laugh-wink"></i>
@@ -47,10 +34,8 @@ function SideBarUser() {
                             </div>
                         </a>
 
-                        {/*   <!-- Divider --> */}
                         <hr className="sidebar-divider my-0" />
 
-                        {/*  <!-- Nav Item - Dashboard --> */}
                         
                         <li className="nav-item active">
                             <Link className="nav-link" to={'/'} >
@@ -62,7 +47,6 @@ function SideBarUser() {
                        
                       
 
-                        {/*  <!-- Nav Item - Pages Collapse Menu --> */}
                         <li className="nav-item">
                             <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                                 aria-expanded="true" aria-controls="collapseTwo">
@@ -84,8 +68,6 @@ function SideBarUser() {
                         <hr className="sidebar-divider" />
 
                         
-
-                        {/*  <!-- Nav Item - Pages Collapse Menu --> */}
                         <li className="nav-item">
                             <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                                 aria-expanded="true" aria-controls="collapsePages">
@@ -97,19 +79,10 @@ function SideBarUser() {
                                     <h6 className="collapse-header">Page Screens:</h6>
                                     <Link className="collapse-item" to={`/user/${id}`}>Profile</Link>
                                     <Link className="collapse-item" to={'/changepass'}>Change Password</Link>
-                                    {/* <div className="collapse-divider"></div>
-                                    <h6 className="collapse-header">Other Pages:</h6>
-                                    <a className="collapse-item" href="404.html">404 Page</a>
-                                    <a className="collapse-item" href="blank.html">Blank Page</a> */}
                                 </div>
                             </div>
                         </li>
                         
-
-                        {/* <!-- Nav Item - Charts --> */}
-                       
-
-                        {/* <!-- Divider --> */}
                         <hr className="sidebar-divider d-none d-md-block" />
                         <li className="nav-item active">
                             <Link className="nav-link" to={'/booking'} >

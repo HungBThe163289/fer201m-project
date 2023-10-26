@@ -1,0 +1,317 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Tuanhung",
+      "email": "th1@gmail.com",
+      "phone": "0123456789",
+      "address": "Ha Noi",
+      "gender": "male",
+      "StudentID": "HE123456",
+      "cost": 2500000
+    },
+    {
+      "id": 2,
+      "name": "Hungbui",
+      "email": "th2@gmail.com",
+      "phone": "0112345678",
+      "address": "Ha Noi",
+      "gender": "male",
+      "StudentID": "HE234567",
+      "cost": 2000000
+    },
+    {
+      "id": 3,
+      "name": "Hung admin",
+      "email": "hungbt@gmail.com",
+      "phone": "0973518412",
+      "address": "Ha Noi",
+      "gender": "female",
+      "StudentID": "HE163289",
+      "cost": 1500000
+    },
+    {
+      "id": 4,
+      "name": "HUNGBT",
+      "email": "th4@gmail.com",
+      "phone": "0123321123",
+      "address": "Ha Noi",
+      "gender": "female",
+      "StudentID": "HE345678",
+      "cost": 1000000
+    },
+    {
+      "id": 5,
+      "name": "Hungdeptrai",
+      "email": "th5@gmail.com",
+      "phone": "045665445",
+      "address": "Ha Noi",
+      "gender": "female",
+      "StudentID": "HE456789",
+      "cost": 9900000
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "username": "hung1",
+      "password": "hung1",
+      "role": "student",
+      "status": true
+    },
+    {
+      "id": 2,
+      "username": "hung2",
+      "password": "hung2",
+      "role": "user",
+      "status": true
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin",
+      "status": true
+    },
+    {
+      "id": 4,
+      "username": "hung4",
+      "password": "hung4",
+      "role": "user",
+      "status": true
+    },
+    {
+      "id": 5,
+      "username": "hung5",
+      "password": "hung5",
+      "role": "student",
+      "status": true
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "room_id": "slot4",
+      "type_room": "4 beds",
+      "cost": 850000
+    },
+    {
+      "id": "2",
+      "room_id": "slot3",
+      "type_room": "3 beds",
+      "cost": 1500000
+    }
+  ],
+  "doms": [
+    {
+      "domName": "DomA",
+      "domID": "A",
+      "slot": "slot3",
+      "totalBed": 132,
+      "usedBed": 14,
+      "freeBed": 118,
+      "id": 1
+    },
+    {
+      "domName": "DomB",
+      "domID": "B",
+      "slot": "slot3",
+      "totalBed": 120,
+      "usedBed": 52,
+      "freeBed": 48,
+      "id": 2
+    },
+    {
+      "domName": "DomA",
+      "domID": "A",
+      "slot": "slot4",
+      "totalBed": 50,
+      "usedBed": 39,
+      "freeBed": 1,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "domID": "B",
+      "domName": "DomB",
+      "slot": "slot4",
+      "totalBed": 64,
+      "usedBed": 6,
+      "freeBed": 58
+    }
+  ],
+  "notification": [
+    {
+      "id": 1,
+      "content": "Dom sẽ mất điện vào ngày kia ",
+      "title": "Thông báo cắt điện ",
+      "Date": ""
+    },
+    {
+      "id": 2,
+      "title": "Thông báo cắt nước ",
+      "content": "Thực hiện theo chỉ đạo của Nhà trường và kế hoạch vệ sin hđịnh kỳ bể chứa nước hàng năm tại KTX",
+      "Date": "16-4-2023"
+    },
+    {
+      "id": 3,
+      "title": "THÔNG BÁO V/V THAY ĐỔI THỜI GIAN ĐĂNG KÝ MỚI PHÒNG KTX ",
+      "content": "KTX gia hạn lịch cho sinh viên giữ giường cũ",
+      "Date": "12-7-2023"
+    },
+    {
+      "id": 4,
+      "title": "Thông báo về kế hoạch tiếp nhận đăng ký KTX cơ sở Hòa Lạc từ kỳ Fall 2023",
+      "content": "Thực hiện theo chỉ đạo của Nhà trường về kế hoạch tiếp nhận đăng ký KTX kỳ Fall 2023 ",
+      "Date": "15-7-2023"
+    }
+  ],
+  "residentHistory": [
+    {
+      "StudentID": "HE123456",
+      "Information": "A - 4 beds",
+      "CheckOut": "17-12-2023",
+      "Price": 850000,
+      "CheckIn": "17-10-2023",
+      "id": 1
+    },
+    {
+      "StudentID": "HE123456",
+      "Information": "A - 3 beds",
+      "CheckOut": "17-12-2023",
+      "Price": 1500000,
+      "CheckIn": "17-10-2023",
+      "id": 2
+    },
+    {
+      "StudentID": "HE234567",
+      "Information": "A - 3 beds",
+      "CheckOut": "18-12-2023",
+      "Price": 1500000,
+      "CheckIn": "18-10-2023",
+      "id": 3
+    },
+    {
+      "StudentID": "HE345678",
+      "Information": "B - 3 beds",
+      "CheckOut": "20-12-2023",
+      "Price": 1500000,
+      "CheckIn": "20-10-2023",
+      "id": 4
+    },
+    {
+      "StudentID": "HE345678",
+      "Information": "A - 4 beds",
+      "CheckOut": "20-12-2023",
+      "Price": 850000,
+      "CheckIn": "20-10-2023",
+      "id": 5
+    },
+    {
+      "StudentID": "HE345678",
+      "Information": "A - 4 beds",
+      "CheckOut": "20-12-2023",
+      "Price": 850000,
+      "CheckIn": "20-10-2023",
+      "id": 6
+    },
+    {
+      "StudentID": "HE345678",
+      "Information": "B - 3 beds",
+      "CheckOut": "20-12-2023",
+      "Price": 1500000,
+      "CheckIn": "20-10-2023",
+      "id": 7
+    },
+    {
+      "StudentID": "HE456789",
+      "Information": "A - 3 beds",
+      "CheckOut": "20-12-2023",
+      "Price": 1500000,
+      "CheckIn": "20-10-2023",
+      "id": 8
+    },
+    {
+      "StudentID": "HE456789",
+      "Information": "A - 4 beds",
+      "CheckOut": "20-12-2023",
+      "Price": 850000,
+      "CheckIn": "20-10-2023",
+      "id": 9
+    }
+  ],
+  "payment": [
+    {
+      "userid": 2,
+      "name": "Hungbui",
+      "pcost": 400000,
+      "isApproved": true,
+      "pdate": "19-10-2023",
+      "status": 1,
+      "id": 1
+    },
+    {
+      "userid": 2,
+      "name": "Hungbui",
+      "status": 1,
+      "pcost": 120000,
+      "isApproved": true,
+      "pdate": "19-10-2023",
+      "id": 2
+    },
+    {
+      "userid": 2,
+      "name": "Hungbui",
+      "status": 2,
+      "pcost": 700000,
+      "isApproved": true,
+      "pdate": "19-10-2023",
+      "id": 3
+    },
+    {
+      "userid": 1,
+      "name": "TuanHung",
+      "status": 2,
+      "pcost": 1200000,
+      "isApproved": true,
+      "pdate": "19-10-2023",
+      "id": 4
+    },
+    {
+      "userid": 1,
+      "name": "TuanHung",
+      "status": 1,
+      "pcost": 500000,
+      "isApproved": true,
+      "pdate": "19-10-2023",
+      "id": 5
+    },
+    {
+      "userid": 1,
+      "name": "TuanHung",
+      "status": 2,
+      "pcost": 500000,
+      "isApproved": true,
+      "pdate": "20-10-2023",
+      "id": 6
+    },
+    {
+      "userid": 1,
+      "name": "TuanHung",
+      "status": 1,
+      "pcost": 1200000,
+      "isApproved": true,
+      "pdate": "20-10-2023",
+      "id": 7
+    },
+    {
+      "userid": 1,
+      "name": "TuanHung",
+      "status": 1,
+      "pcost": 12000000,
+      "isApproved": true,
+      "pdate": "20-10-2023",
+      "id": 8
+    }
+  ]
+}
