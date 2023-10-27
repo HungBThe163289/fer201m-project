@@ -48,9 +48,6 @@ export default function ProfileUser() {
             <TemplateAdmin>
                 <div className="container">
                     <div className="main-body">
-                        {/* Breadcrumb */}
-
-                        {/* /Breadcrumb */}
                         <div className="row gutters-sm">
                             <div className="col-md-4 mb-3">
                                 <div className="card">
@@ -69,10 +66,6 @@ export default function ProfileUser() {
                                                 <p className="text-muted font-size-sm">
                                                     {users.StudentID}
                                                 </p>
-                                                <p className="text-muted font-size-sm">
-                                                   Total amout: {users.cost} VND
-                                                </p>
-
                                             </div>
                                         </div>
                                     </div>
@@ -126,7 +119,6 @@ export default function ProfileUser() {
                                             <div className="col-sm-6">
                                                 <Link
                                                     className="btn btn-info "
-                                                    // target="__blank"
                                                     to={`/user/edit/${id}`}
                                                 >
                                                     Edit
@@ -153,9 +145,6 @@ export default function ProfileUser() {
             <TemplateUser>
                 <div className="container">
                     <div className="main-body">
-                        {/* Breadcrumb */}
-
-                        {/* /Breadcrumb */}
                         <div className="row gutters-sm">
                             <div className="col-md-4 mb-3">
                                 <div className="card">
@@ -173,9 +162,6 @@ export default function ProfileUser() {
                                                 <p className="text-secondary mb-1">FPT University</p>
                                                 <p className="text-muted font-size-sm">
                                                 {users.StudentID}
-                                                </p>
-                                                <p className="text-muted font-size-sm">
-                                                   Total amout: {users.cost} VND
                                                 </p>
 
                                             </div>
@@ -231,7 +217,6 @@ export default function ProfileUser() {
                                             <div className="col-sm-6">
                                                 <Link
                                                     className="btn btn-info "
-                                                    // target="__blank"
                                                     to={`/user/edit/${id}`}
                                                 >
                                                     Edit

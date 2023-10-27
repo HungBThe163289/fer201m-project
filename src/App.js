@@ -10,20 +10,13 @@ import ManagerUser from './screens/ManagerUser';
 import ViewUser from './screens/ViewUser';
 import ManagerRoom from './screens/ManagerRoom';
 import EditRoom from './screens/EditRoom';
-import ListRoom from './screens/ListRoom';
-import AddRoom from './screens/AddRoom';
 import ManagerAccount from './screens/ManagerAccount';
 import ManagerNoti from './screens/ManagerNoti';
-import BookingBed from './screens/BookingBed';
 import Error from './screens/Error';
-import ResidentHistory from './screens/ResidentHistory';
 import ManagerResident from './screens/ManagerResident';
 import ViewNoti from './screens/ViewNoti';
 import AddNoti from './screens/AddNoti';
 import EditNoti from './screens/EditNoti';
-import Payment from './screens/Payment';
-import ManagerPayment from './screens/ManagerPayment';
-import PaymentHistory from './screens/PaymentHistory';
 import AboutPage from './screens/AboutPage';
 
 
@@ -42,21 +35,14 @@ function App() {
      <Route path='/view/user/:id' element={<ViewUser/>}/> 
      <Route path='/managerroom' element={<ManagerRoom/>}/> 
      <Route path='/edit/room/:id' element={<EditRoom/>}/>
-     <Route path='/listroom' element={<ListRoom/>}/>
-     <Route path='/addroom' element={<AddRoom/>}/>
      <Route path='/account' element={<ManagerAccount/>}/>
      <Route path='/managernoti' element={<ManagerNoti/>}/>
-     <Route path='/booking' element={<BookingBed/>}/>
      <Route path='/error' element={<Error/>}/>
      <Route path='/*' element={<Error/>}/>
-     <Route path='/resident' element={<ResidentHistory/>}/>
      <Route path='/manager/resident' element={<ManagerResident/>}/>
      <Route path='/viewnoti' element={<ViewNoti/>}/>
      <Route path='/add/noti' element={<AddNoti/>}/>
      <Route path='/edit/noti/:id' element={<EditNoti/>}/>
-     <Route path='/payment' element={<Payment/>}/>
-     <Route path='/paymenthistory' element={<PaymentHistory/>}/>
-     <Route path='/managerpayment' element={<ManagerPayment/>}/>
      <Route path='/about' element={<AboutPage/>}/>
      </Routes>   
     </BrowserRouter>

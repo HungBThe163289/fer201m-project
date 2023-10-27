@@ -42,7 +42,7 @@ function SideBarAdmin() {
                             <div className="sidebar-brand-icon rotate-n-15">
                                 <i className="fas fa-laugh-wink"></i>
                             </div>
-                            <div className="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                            <div className="sidebar-brand-text mx-3">ADMIN MANAGE</div>
                             <div className="text-center d-none d-md-inline">
                                 <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle}></button>
                             </div>
@@ -88,18 +88,14 @@ function SideBarAdmin() {
                             </div>
                         </li>
 
-                        {/* <!-- Nav Item - Utilities Collapse Menu --> */}
                         
 
-                        {/*  <!-- Divider --> */}
                         <hr className="sidebar-divider" />
 
-                        {/* <!-- Heading --> */}
                         <div className="sidebar-heading">
-                            Addons
+                            Page
                         </div>
 
-                        {/*  <!-- Nav Item - Pages Collapse Menu --> */}
                         <li className="nav-item">
                             <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                                 aria-expanded="true" aria-controls="collapsePages">
@@ -111,31 +107,15 @@ function SideBarAdmin() {
                                     <h6 className="collapse-header">Page Screens:</h6>
                                     <Link className="collapse-item" to={`/user/${id}`}>Profile</Link>
                                     <Link className="collapse-item" to={'/changepass'}>Change Password</Link>
-                                    {/* <div className="collapse-divider"></div>
-                                    <h6 className="collapse-header">Other Pages:</h6>
-                                    <a className="collapse-item" href="404.html">404 Page</a>
-                                    <a className="collapse-item" href="blank.html">Blank Page</a> */}
                                 </div>
                             </div>
                         </li>
 
-                        {/* <!-- Nav Item - Charts --> */}
-                       
-
-                        {/* <!-- Divider --> */}
                         
                         <hr className="sidebar-divider d-none d-md-block" />
                         <li className="nav-item active">
                             <Link className="nav-link" to={'/manager/resident'} >
-                            
                                 <span>Manager Resident</span>
-                                </Link>
-                        </li>
-                        <hr className="sidebar-divider d-none d-md-block" />
-                        <li className="nav-item active">
-                            <Link className="nav-link" to={'/managerpayment'} >
-                            
-                                <span>Manager Payment</span>
                                 </Link>
                         </li>
                     </ul>

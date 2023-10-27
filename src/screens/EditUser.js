@@ -89,28 +89,6 @@ const EditUser = () => {
             <div className="container">
                 <div className="main-body">
                     <div className="row gutters-sm">
-                        <div className="col-md-4 mb-3">
-                            <div className="card">
-                                <div className="card-body">
-                                    <div className="d-flex flex-column align-items-center text-center">
-                                        {/* Display user details */}
-                                        {/* <img
-                      src={mentor.avatar}
-                      alt="Admin"
-                      className="rounded-circle"
-                      width={150}
-                    /> */}
-                                        <div className="mt-3">
-                                            <h4>{user.username}</h4>
-                                            <p className="text-secondary mb-1">Full Stack Developer</p>
-                                            <p className="text-muted font-size-sm">{user.address}</p>
-                                            <button className="btn btn-primary">Follow</button>
-                                            <button className="btn btn-outline-primary">Message</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div className="col-md-8">
                             <div className="card mb-3">
                                 <div className="card-body">
